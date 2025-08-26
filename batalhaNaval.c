@@ -36,5 +36,14 @@ int main() {
         printf("(%d, %d)\n", x2, y2 + i);
     }
 
+    // OPCIONAL: mostrar tabuleiro inteiro
+    printf("\nTabuleiro (0 = vazio, 1 = navio 1, 2 = navio 2):\n");
+    for (int i = 0; i < TAM; i++) {
+        for (int j = 0; j < TAM; j++) {
+            printf("%d ", tabuleiro[i][j]);
+        }
+        printf("\n");
+    }
+
     return 0;
 }
